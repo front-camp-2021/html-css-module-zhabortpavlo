@@ -1,0 +1,149 @@
+.main {
+    width: 80%;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container {
+    /* position: relative; */
+    width: 400px;
+    height: 486px;
+    top: 341px;
+    left: 623px;
+    border-radius:8px;
+    box-shadow: 0px 2px 8px 0px #00000022;
+}
+.container1 {
+    
+    margin-top: 35px;
+}
+
+.product_img {
+    position: absolute;
+    left: 0.72%;
+    right: 50.93%;
+    top: 0.98%;
+    bottom: 67.14%;
+}
+.product_img_macbook {
+    position: absolute;
+    left: -13.28%;
+    right: 50.93%;
+    top: 10.98%;
+    bottom: 67.14%;
+}
+.product_img_jbl {
+    position: absolute;
+    left: 26.72%;
+    right: 50.93%;
+    top: 3.98%;
+    bottom: 67.14%;
+}
+.shop_img {
+    position: relative;
+    left: 20%;
+    top: 5%;
+    width: 250px;
+    height: 250px;
+}
+.price_info {
+    position: relative;
+    top: 15%;
+}
+.rank_button {
+    width: 70px;
+    height: 25px;
+    border: white;
+    background-color:rgb(105, 24, 105) ;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    right: 230px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+border-radius: 5px;
+}
+.star {
+    font-size: 22px;
+}
+label {
+    position: relative;
+    left: 255px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+}
+.text_info {
+position: relative;
+top: 15%;
+left: 5%;
+}
+.model {
+    font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+}
+.model_info {
+    position: relative;
+    bottom: 10px;
+    font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 14px;
+letter-spacing: 0px;
+text-align: left;
+}
+.shop {
+    display: flex;
+    position: relative;
+    top: 16%;
+}
+.wishlist {
+    height: 60px;
+    width: 50%;
+    background: #EDEDED;
+border-radius: 0px 0px 0px 8px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+border: white;
+}
+.wishlist:hover {
+    color: rgb(56, 205, 224);
+    font-size: 25px;
+}
+.cart {
+    height: 60px;
+    width: 50%;
+    background: #6F64F8;
+border-radius: 0px 0px 8px 0px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+border: white;
+}
+.cart:hover {
+    background-color: rgb(153, 33, 153);
+    font-size: 21px;
+}
+/* .shop_icon1 {
+    position: relative;
+    right: 10px;
+    font-size: 24px;
+    top: 3px;
+} */
